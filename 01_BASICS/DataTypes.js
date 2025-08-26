@@ -14,7 +14,7 @@ let isLoggedIn = false;
 
 //objects
 
-console.log(typeof "Debottam");
-console.log(typeof age);
-console.log(typeof null);
-console.log(typeof undefined);
+console.log(typeof "Debottam"); //string
+console.log(typeof age); //number
+console.log(typeof null); //object
+console.log(typeof undefined); //undefined
