@@ -29,4 +29,16 @@ function calculateCartPrice(...num1) {
 }
 console.log(calculateCartPrice(200));
 console.log(calculateCartPrice(200, 300));
-console.log(calculateCartPrice(200,300,500));
+console.log(calculateCartPrice(200, 300, 500));
+
+
+console.log(addOne(3));
+function addOne(num) {
+    return num + 1;
+}//when we declare functions like this then we can call the function before the function declaration
+
+
+const addTwo = function (num) {
+    return num + 2;
+}
+console.log(addTwo(3));//when we declare functions like this(an expression), then we can not call the function before the function declaration
